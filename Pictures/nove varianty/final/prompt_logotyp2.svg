@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="169.29401mm"
+   width="171.98697mm"
    height="60.082001mm"
-   viewBox="0 0 169.29401 60.082"
+   viewBox="0 0 171.98697 60.082"
    version="1.1"
    id="SVGRoot"
    sodipodi:docname="prompt_logotyp2.svg"
@@ -28,14 +28,14 @@
      inkscape:document-units="mm"
      showgrid="false"
      inkscape:zoom="1.4142136"
-     inkscape:cx="338.70414"
-     inkscape:cy="67.882249"
+     inkscape:cx="235.113"
+     inkscape:cy="68.589356"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer3"
+     inkscape:current-layer="layer1"
      showguides="true"
      inkscape:guide-bbox="true"
      inkscape:snap-bbox="true"
@@ -70,13 +70,13 @@
        style="display:inline" />
     <text
        xml:space="preserve"
-       style="font-size:15.0379px;line-height:1.25;font-family:sans-serif;letter-spacing:0.51683px;word-spacing:7.51896px;stroke-width:0.375946"
-       x="93.119431"
+       style="font-size:15.0379px;line-height:1.25;font-family:sans-serif;letter-spacing:0.51683px;word-spacing:7.51896px;display:inline;stroke-width:0.375946"
+       x="95.812393"
        y="-41.094185"
        id="text3853"><tspan
          sodipodi:role="line"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.375946"
-         x="93.119431"
+         x="95.812393"
          y="-41.094185"
          id="tspan7389">GYM<tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.129646px;stroke-width:0.375946"
@@ -85,14 +85,14 @@
    id="tspan9256">A</tspan>SIUM</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:15.0379px;line-height:1.25;font-family:sans-serif;word-spacing:-0.409783px;stroke-width:0.375946"
-       x="93.420593"
+       style="font-size:15.0379px;line-height:1.25;font-family:sans-serif;word-spacing:-0.409783px;display:inline;stroke-width:0.375946"
+       x="96.113556"
        y="-27.184618"
        id="text14605"><tspan
          sodipodi:role="line"
          id="tspan14603"
          style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.375946"
-         x="93.420593"
+         x="96.113556"
          y="-27.184618"><tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-1.0345px;stroke-width:0.375946"
    id="tspan97831">J</tspan><tspan
@@ -112,6 +112,50 @@
    id="tspan74177">E</tspan><tspan
    style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.323017px;stroke-width:0.375946"
    id="tspan77619">R</tspan>A</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.0379px;line-height:1.25;font-family:sans-serif;letter-spacing:0.51683px;word-spacing:7.51896px;display:none;stroke-width:0.375946"
+       x="93.119431"
+       y="-41.094185"
+       id="text345"><tspan
+         sodipodi:role="line"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.375946"
+         x="0"
+         y="0"
+         id="tspan343">GYM<tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.129646px;stroke-width:0.375946"
+   id="tspan339">N</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.232833px;stroke-width:0.375946"
+   id="tspan341">A</tspan>SIUM</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:15.0379px;line-height:1.25;font-family:sans-serif;word-spacing:-0.409783px;display:none;stroke-width:0.375946"
+       x="93.420593"
+       y="-27.184618"
+       id="text367"><tspan
+         sodipodi:role="line"
+         id="tspan365"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;stroke-width:0.375946"
+         x="0"
+         y="0"><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-1.0345px;stroke-width:0.375946"
+   id="tspan347">J</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.275642px;stroke-width:0.375946"
+   id="tspan349">A</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.335938px;stroke-width:0.375946"
+   id="tspan351">N</tspan>A <tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.434998px;stroke-width:0.375946"
+   id="tspan353">K</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.28575px;stroke-width:0.375946"
+   id="tspan355">E</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.0635px;stroke-width:0.375946"
+   id="tspan357">P</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.219604px;stroke-width:0.375946"
+   id="tspan359">L</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:0.148167px;stroke-width:0.375946"
+   id="tspan361">E</tspan><tspan
+   style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:15.0379px;font-family:Prompt;-inkscape-font-specification:'Prompt, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;letter-spacing:-0.323017px;stroke-width:0.375946"
+   id="tspan363">R</tspan>A</tspan></text>
   </g>
   <g
      inkscape:groupmode="layer"
@@ -124,22 +168,21 @@
        id="rect61411"
        width="6.21"
        height="6.21"
-       x="41.739841"
+       x="44.432808"
        y="16.162479" />
     <rect
        style="display:inline;opacity:0.25;fill:#d40000;stroke-width:0"
        id="rect61411-7-1"
        width="6.21"
        height="6.21"
-       x="202.67294"
-       y="-30.601366"
-       transform="translate(-55.236463,63.241093)" />
+       x="150.12944"
+       y="32.639729" />
     <rect
        style="display:inline;opacity:0.25;fill:#d40000;stroke-width:0"
        id="rect61411-7-1-1"
        width="6.21"
        height="6.21"
-       x="153.64621"
+       x="156.33917"
        y="32.639713" />
     <rect
        style="display:inline;opacity:0.25;fill:#d40000;stroke-width:0"
