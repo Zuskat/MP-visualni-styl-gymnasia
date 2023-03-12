@@ -9,7 +9,7 @@
    id="svg5"
    xml:space="preserve"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
-   sodipodi:docname="vizitka_zada2.svg"
+   sodipodi:docname="vizitka_zada_jednobarevna3.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -27,7 +27,7 @@
      showgrid="false"
      inkscape:lockguides="false"
      inkscape:zoom="2.8471494"
-     inkscape:cx="121.17383"
+     inkscape:cx="99.046436"
      inkscape:cy="120.47137"
      inkscape:window-width="1920"
      inkscape:window-height="1017"
@@ -148,14 +148,14 @@
          values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 -0.21 -0.72 -0.07 1 0 "
          result="color2"
          id="feColorMatrix1593-1" /></filter></defs><rect
-     style="display:none;fill:#0e2d69;fill-opacity:1;stroke:#ff0000;stroke-width:0"
+     style="display:inline;fill:#0e2d69;fill-opacity:1;stroke:#ff0000;stroke-width:0"
      id="rect234"
      width="321.25986"
      height="207.87401"
      x="5e-07"
      y="8.893051e-06"
      sodipodi:insensitive="true" /><rect
-     style="display:inline;fill:#335699;fill-opacity:1;stroke:#ff0000;stroke-width:0"
+     style="display:none;fill:#335699;fill-opacity:1;stroke:#ff0000;stroke-width:0"
      id="rect2974"
      width="321.25986"
      height="207.87401"
@@ -178,7 +178,7 @@
      inkscape:label="logotyp1"
      id="layer1"
      transform="translate(-6.7620859,-22.539534)"
-     style="display:none"><g
+     style="display:inline"><g
        id="g2442"
        transform="matrix(0.07535884,0,0,0.07535884,86.414021,45.701793)"
        style="display:inline"><g
@@ -653,7 +653,7 @@
            y="-22.717541" /></g></g></g><g
      id="g2918"
      transform="matrix(1.603439,0,0,1.603439,22.697904,55.891482)"
-     style="display:inline"
+     style="display:none"
      inkscape:label="logotyp2"><g
        id="layer4-1"
        inkscape:label="pozadi"
