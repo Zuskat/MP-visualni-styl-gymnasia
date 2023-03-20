@@ -4,6 +4,7 @@
 \let\openright=\cleardoublepage
 
 \input{macros.tex}
+\addbibresource{references.bib}
 
 \def\NazevPrace{Grafický visuální styl gymnasia}
 \def\Trida{4.B}
@@ -55,31 +56,82 @@ Abstract.
 \chapter{Teoretická část}
 \pagestyle{fancy}
 
-V první části maturitní práce by se měla objevit informace o tom, jaký problém řešíte. Co si Váš projekt klade za cíl?
+% V první části maturitní práce by se měla objevit informace o tom, jaký problém řešíte. Co si Váš projekt klade za cíl?
 
-Gymnázium Jana Keplera nemá sestavený žádný grafický manuál. Jeho visuální identita je nejasná a používána nejednotně a bez pravidel. Mým cílem je sestavit grafický manuál, který by měl zabránit nejednotě visuální komunikace, definovat a zpřehlednit jeho visuální identitu tak, aby s ní bylo možné snadno pracovat. Grafický manuál by měl určovat, jak používat logo, barvy, fonty a další grafické prvky. Zároveň je sestaven tak, aby se jím mohl řídit jakýkoliv designér používající jakékoliv médium.
-Dále je mým cílem sestavit šablony usnadňující použití visuální identity v nejpoužívanějších médiích pro často užívané dokumenty a další náležitosti a navrhnout úpravy webových stránek tak, aby byly v souladu s grafickým manuálem.
 
-**logoxlogotypxpiktogram**
-**v implementaci mám možná info hodící se spíše do teoretické sekce - VYŘEŠIT**
+% CÍL
+
+Cílem práce je sjednotit vizuální styl Gymnázia Jana Keplera, sestavit grafický manuál udávající pravidla tohoto stylu, vytvořit základní šablony pro usnadnění jeho používání (vizitky, dopisní papír, prezentace, závěrečné práce, emailový podpis) a navrhnout úpravy webových stránek školy.
+Cílem není vytvořit vizuální identitu novou.
+
+% Gymnázium Jana Keplera nemá sestavený žádný grafický manuál. Jeho visuální identita je nejasná a používána nejednotně a bez pravidel. Mým cílem je sestavit grafický manuál, který by měl zabránit nejednotě visuální komunikace, definovat a zpřehlednit jeho visuální identitu tak, aby s ní bylo možné snadno pracovat. Grafický manuál by měl určovat, jak používat logo, barvy, fonty a další grafické prvky. Zároveň je sestaven tak, aby se jím mohl řídit jakýkoliv designér používající jakékoliv médium.
+% Dále je mým cílem sestavit šablony usnadňující použití visuální identity v nejpoužívanějších médiích pro často užívané dokumenty a další náležitosti a navrhnout úpravy webových stránek tak, aby byly v souladu s grafickým manuálem.
+
+% **logoxlogotypxpiktogram**
+% **v implementaci mám možná info hodící se spíše do teoretické sekce - VYŘEŠIT**
+
+\section{Analýza značky}
+Prvním krokem k tvorbě dobrého designu je analýza značky. Cílem této fáze je ujasnit, jaké jsou hlavní myšlenky a hodnoty značky, její účel, čím se odlišuje a jak chce vystupovat na veřejnosti. Další nezbytnou součástí je analýza cílové skupiny a konkurence. Na základě této analýzy se sestavuje verbální, vizuální a emoční identita značky, tj. jak by značka měla působit. Sice není cílem vizuální styl školy zcela změnit a ráda bych se držela již stávajících prvků, i tak je však analýza potřebná pro vytvoření co nejlepších designů.
+
+Analýza značky byla provedena na základě konzultace se zástupkyní ředitele Mgr. Marcelou Grabmüllerovou a na základě informací poskytnutých na webu školy. Analýza konkurence byla provedena převážně na základě webových stránek konkurenčních škol a některých dokumentů poskytovaných online, zanalyzována byla tedy především její vizuální identita.
+
+Výsledky analýzy značky jsou následující:
+
+\textbf{Cíli značky}  jsou výchova a komplexní vzdělávání nadaných studentů a jejich příprava na VŠ.
+\textbf{Cílem propagace} je získat nadané studenty a kvalitní pedagogy.
+\textbf{Cílovou skupinou} jsou hlavně rodiče, ale také potenciální kvalitní studenti a pedagogové. Škola cílí převážně na skupiny, které vyhledávají kvalitu, otevřenost, spolehlivost a příležitosti. Vzhledem k tomu, že se jedná o českou školu, cílí především na západoevropskou kulturu.
+\textbf{Hodnotami značky} jsou prestiž, úspěch, kvalita, individualita a otevřenost. \textbf{Odlišuje se} právě individualitou, které dosahuje například širokou škálou volitelných seminářů.
+\textbf{Verbální identita} značky je přátelská, ale zároveň seriózní.
+\textbf{Emoční identita} značky se skládá z následujícího: značka by měla působit moderně, vzbuzovat dojem kvality a úspěchu, svobody, přátelskosti a podpory. Těchto hodnot škola dosahuje například moderním vybavením, bezbariérovým přístupem, dostupností školního psychologa a širokou nabídkou studijních příležitostí.\cite{svp}
+
+Výsledky analýzy konkurence jsou následující:
+
+\textbf{PORG} užívá hlavně modrou a bílou barvu, kombinuje patkové a bezpatkové písmo. Web působí moderně, jeho obsah je přes celou plochu obrazovky. Obsahuje mnoho fotografií a videí. Působí kvalitně a osobně.\cite{porg}
+
+\textbf{Gymnázium Nad Alejí} má webové stránky převážně bílé s modrými a oranžovými nápisy. V logu užívá také zelenou barvu. Používá převážně bezpatkové písmo, použítí písem je ale nejednotné. Web působí nedodělaně, nepřehledně a zastarale.\cite{alej}\cite{einstein}
+
+\textbf{Gymnázium Na Zatlance}
+
+Kromě analýzy konkurence jsem také zanalyzovala vizuální identitu některých zahraničních gymnázií:
+% dát to sem? neznám autory webu :(((
 
 \section{Grafický manuál}
-Rozhodla jsem se udělat grafický manuál v pdf. Nabízí se udělat také responzivní grafický manuál v podobě webové stránky. Webová stránka nabízí responzivitu. Nicméně forma pdf je běžnější, pro spoustu lidí srozumitelnější a vhodnější pro potřeby gymnasia. Zároveň ji lze také snadno vytisknout a používat i offline. Vzhledem k tomu, že gymnasium nepotřebuje žádný velký a detailně propracovaný grafický manuál, rozhodla jsem se jej udělat jednoduchý a forma webové stránky by jej zbytečně zesložiťovala. Zároveň by to byla spousta práce navíc, která by téměř neměla smysl.
+Grafický manuál by měl zabránit nejednotě vizuální komunikace, definovat a zpřehlednit jeho vizuální identitu tak, aby s ní bylo možné snadno pracovat. Měl by určovat, jak používat logo, barvy, fonty a další grafické prvky související se značkou. Zároveň by měl být sestaven tak, aby se jím mohl řídit jakýkoliv designér používající jakékoliv médium.
+
+\subsection{Logo}
+Kvůli licenci fontu bylo potřebné změnit font textu okolo loga.
+Rozhodla jsem se také navrhnout variantu loga, kdy je logo použito s textem orientovaným horizontálně v bloku vedle portrétu - na webových stránkách je momentálně logo (portrét s textem v kruhu) i s horizontálně orientovaným textem, tudíž se text dvakrát opakuje (viz \nameref{fig:logo_web}). V nově vytvořeném logu s horizontálním textem je také místo nápisu "Gymnasium Jana Keplera" použit nápis "Gymnázium Jana Keplera." Působí to moderněji a přirozeněji.
+
+\begin{figure}[htbp]
+  \includegraphics[width=1\textwidth]{img/gjk_web_hlavicka.png}
+  \caption{logo na webu www.gjk.cz}
+  \label{fig:logo_web}
+\end{figure}
+
+%\includegraphics[width=1\textwidth]{img/gjk_web_hlavicka.png}
+%    \caption{logotyp na webu gjk}
+%    \label{fig:logotyp_web}
+
+V nově vytvořeném logu s textem zakřiveném do kruhu v novém fontu bylo nutné prostrkat písmena tak, aby byl vizuálně vyvážený. Postup jsem konzultovala s Janem Čumlivskim na UMPRUM.
+
+Důležitá je také tvorba ochranné zóny - prázdného prostoru kolem loga, který zajišťuje, že logo bude čitelné a nebude se při použití překrývat s jinými objekty. Vytvořena byla následovně: vybrala jsem část loga a její velikost jsem označila jako x. Po všech stranách loga jsem vytvořila prázdný prostor např. o velikosti 2x. Přesnější specifikace ochranné zóny u jednotlivých log je uvedena v grafickém manuálu.
 
 \subsection{Barvy}
-% ideálně zkrátit (a hodně upravit, je to hodně ledabyle sepsané) a věnovat se dál i odstínům
-% dohledat ještě zdroje
-% zjistit akceptovatelnost politických kampaní
-% dopsat někam obecně cílovou skupinu a základní komunikační strategie, abych se měla na co odkazovat!!!
-% vyřešit "v" "I" atp. na koncích řádků - v celém dokumentu
-Rozhodla jsem se jako hlavní barvu ponechat modrou, ale specifikovat konkrétní odstín dle vlastního výběru a na základě toho specifikovat i další barvy. Ponechat modrou jsem se rozhodla proto, že nechci přílišně zasahovat do visuální identity školy. Ačkoliv škola nemá vlastní grafický manuál, je zřejmé, že za svoji hlavní barvu pokládá tmavě modrou. Bylo by nevhodné změnit tuto barvu, protože by se kompletně změnila visualní komunikace instituce, což by vedlo ke zmatení veřejnosti.
-Zároveň se domnívám, že právě tmavě modrá je ideální barvou pro Gymnázium Jana Keplera. Cílová skupina gymnázia je široká - rodiče, ale také potenciální studenti, stávající studenti, zaměstnanci, lidé z oboru (např. při účasti na olympiách), nicméně největší skupinou jsou občané Čerské republiky. Škola potřebuje cílit na mladé i starší věkové skupiny, téměř na celé věkové spektrum. Zároveň se škola prezentuje jako elitní, byť státní gymnázium. Její studenti jsou považováni za úspěšné a velmi dobře vzdělané. Kultura života na gymnáziu se liší od "běžných škol," ale zároveň neesperimentuje s alternativními způsoby vzdělávání. Je progresivní, ale zároveň si zachovává jistou klidnou atmosféru, nepotřebuzje experimentovat za každou cenu. Studenti nejsou vystavováni přílišnému biflování, naopak je důraz na porozumnění, ale také vztahy mezi studenty a profesory a na studentskou iniciativu. Modrá barva se pro tyto účely perfektně hodí. Minimálně v západní společnosti je modrá silně spojována s úspěchem - viz úspěšní studenti a prestiž školy. Zároveň vzbuzuje pocity smysluplnosti, zabezpečení a důvěryhodnosti. Škola má prezentovat jisté bezpečí a smysluplnost studia a zároveň má být co nejvíc důvěryhodnou institucí - přeci jen škola částečně přebírá výchovu studentů a rodiče se zajímají o to, komu své děti "předávají do péče." (kniha a hlava)
-Modrá barva podle psychologie barev v lidech vzbuzuje klid. Zároveň ji mají rádi lidé s bohatým vnitřním životem a obecně introverti. Spolu s klidem přichází s modrou barvou i neměnnost, tedy preferují ji lidé, co nemají rádi změny, spíše lidé kozervativní. (https://www.onlio.com/-/psychologie-barev-dokonceni) (viz politické kampaně) To se pro progresivní školu tolik nehodí, nicméně stále převládá prestiž (která s progresivitou možná jde i trochu ruku v ruce). Z vlastního úhlu pohledu bych řekla, že škola i trochu konzervativní je a lehký pocit konzervativnosti jí neuškodí. Pokud bych volila barvu vzbuzující pokrok, extroverzi a otevřenost, volila bych například mezi žlutou a oranžovou. I přes tyto věci ale volím modrou, protože prezentuje preferované vlastnosti.
+Vzhledem k tomu, že škola zjevně používá odstíny modré jako primární barvu, rozhodla jsem se modré barvy držet a pouze pozměnit odstíny tak, aby lépe ladily a aby vypadaly dobře jak na tiskovinách, tak na digitálních zařízeních.
 
+Modrá barva má dokonce své opodstatnění i podle psychologie barev. Modrá barva zklidňuje. Použití modré nebo jiných studených barev je vhodné, chceme-li propagovat něco, co vyžaduje pečlivé zhodnocení a delší rozhodování (narozdíl např. od oranžové, která podporuje spontánní rozhodování). Těchto poznatků se hojně využívá v obchodních centrech, v interier designu, ale také v medicíně.
+\cite{enwiki:1144176285}
+Často je asociována s bezpečím, spolehlivostí, důvěrou a kvalitou.\cite{hallock}
+Modrá barva je v západní kultuře často spojována s úspěchem a s jistotou, což se také hodí pro potřeby školy. \cite{grafika}
+
+Dalším důležitým poznatkem je, že lidé obecně preferují, pokud jsou barvy různých prvků v podobných odstínech, nejedná-li se např. o text a pozadí, kde je naopak vyžádován kontrast.\cite{enwiki:1144176285}\cite{color} Tento kontrast ovšem nesmí být příliš velký, mohl by potom způsobovat tzv. vibrace, které můžou působit agresivně a zvýšit obtížnost čtení.\cite{grafika}
 %https://www.onlio.com/-/psychologie-barev-dokonceni
-%↑ ideálně ještě sehnat ještě jiný zdroj
 %kniha
-%politické kampaně??
+% https://www.youtube.com/watch?v=XNkV6m4fosw
+
+\subsection{Písmo}
+Jako písmo na logo bylo nutné zvolit font s otevřenou licencí podporující celou českou abecedu. Chtěla jsem, aby působil moderně, snadno se četl, ale zároveň nebyl zcela obyčejný. Pro tyto účely jsem zvolila druh písma \footnote{https://fonts.google.com/specimen/Prompt}. Rozhodla jsem se jej určit i jako primární písmo pro nadpisy.
+Jako písmo pro delší texty (obsah sdělení) jsem se rozhodla na základě konzultace na UMPRUM použít font Arial Regular. Tento font se dobře čte, většina lidí je na něj zvyklá a používá se na webových stránkách školy, tudíž to nebude pro čtenáře taková změna. Vzhledem k tomu, že většina pedagogického sboru pracuje s operačním systémem Windows, je tento font vhodný i proto, že je dostupný na většině počítačů (s operačním systémem Windows) a v nejčastěji používaném softwaru, pro který navrhuji šablony (Google platforma a Microsoft Office). Font sice není v základu poskytován unixovými operačními systémy, nicméně lze doinstalovat a lidé používající tyto operační systémy jsou většinou dostatečně technicky zdatní a dokáží si font opatřit.
 
 \section{Šablony}
 \subsection{Zadání závěrečné práce}
@@ -87,7 +139,20 @@ Modrá barva podle psychologie barev v lidech vzbuzuje klid. Zároveň ji mají 
 \subsection{Dopisní papír}
 \subsection{Email}
 \subsection{Prezentace}
+https://mirrors.nic.cz/tex-archive/macros/latex/contrib/beamer/doc/beameruserguide.pdf
 \subsection{vizitky}
+https://www.verso.cz/Upload/Priprava-dat-pro-vizitky.pdf
+https://startujemeweby.cz/blog/standardni-rozmery-vizitek-jak-vybrat-ty-spravne/
+nezapomenout na spadávku (asi ne google docs, ale inkscape)
+
+inspiraci jsem čerpala z vizitek ČVUT a UK, ale také Oxfordu, Cambridge atp. Některé návrhy jsou také z mé hlavy.
+https://www.forbes.com/advisor/business/best-business-card-designs/
+https://venngage.com/blog/business-card-examples/
+
+http://papirovydrak.cz/jak-pripravit-data-pro-tisk/
+https://www.topvizitky.cz/jak-pripravit-podklady/
+
+vizitka není velký nápis jména atp... protože...
 \section{Návrhy úprav webových stránek}
 
 
@@ -98,17 +163,7 @@ Druhá kapitola obsahuje detailní informace o tom, jak probíhala implementace.
 
 \section{Vektorová grafika}
 \label{sec:grafika}
-Nedílnou součástí projektu je tvorba grafiky. Ačkoli škola například logo má a mým úkolem není vymýšlet logo nové, je potřeba ho zvektorizovat a navrhnout povolené a zakázané varianty. Zároveň bych ráda navrhla i samotný logotyp a variantu, kdy je logo použito s textem v bloku - na webových stránkách je momentálně text vedle loga, tudíž se text dvakrát opakuje (viz \nameref{fig:logotyp_web})
-
-\begin{figure}[htbp]
-  \includegraphics[width=1\textwidth]{img/gjk_web_hlavicka.png}
-  \caption{logotyp na webu www.gjk.cz}
-  \label{fig:logotyp_web}
-\end{figure}
-
-%\includegraphics[width=1\textwidth]{img/gjk_web_hlavicka.png}
-%    \caption{logotyp na webu gjk}
-%    \label{fig:logotyp_web}
+Nedílnou součástí projektu je tvorba grafiky. Ačkoli škola například logo má a mým úkolem není vymýšlet logo nové, je potřeba ho zvektorizovat a navrhnout povolené a zakázané varianty. 
 
 Pro loga, logotypy atp. je nejlepší vektorová grafika, aby bylo možné různě upravovat jejich velikost a podobu bez ztrát na kvalitě.
 
@@ -125,18 +180,41 @@ https://daviesložitějsmediadesign.com/cs/inkscape-vs-gimp-which-one-should-you
 https://www.quora.com/How-would-you-compare-Inkscape-vs-Krita-Which-one-is-better-for-website-and-brand-design-including-logos
 
 \section{Grafický manuál}
+Rozhodla jsem se udělat grafický manuál v pdf. Nabízí se udělat také responzivní grafický manuál v podobě webové stránky. Webová stránka nabízí responzivitu. Nicméně forma pdf je běžnější, pro spoustu lidí srozumitelnější a vhodnější pro potřeby gymnázia. Zároveň ji lze také snadno vytisknout a používat i offline. Vzhledem k tomu, že gymnasium nepotřebuje žádný velký a detailně propracovaný grafický manuál, rozhodla jsem se jej udělat jednoduchý a forma webové stránky by jej zbytečně zesložiťovala. Zároveň by to byla spousta práce navíc, která by téměř neměla smysl.
+
 \label{sec:manual}
 K tvorbě grafického manuálu jsem se rozhodla použít sázecí program Scribus. Jedná se o open-source software, který je zdarma. Má grafické rozhraní, díky čemuž bude moct grafický manuál v budoucnosti aktualizovat i člověk, který nemá příliš zkušeností s prací se sázecími programy.
 
-Jako další možnosti jsem zvažovala použití softwaru od Adobe nebo Affinity. Tento software je používán pro tvorbu grafických manuálů v profesionálním prostředí a určitě by nebyl špatnou volbou, co se týče nabízených nástrojů. Rodina Adobe i Affinity navíc nabízí i špičkové programy pro tvorbu vektorové grafiky (více o výběru sw pro tvorbu grafiky v sekci \nameref{sec:grafika}). Bohužel, Adobe i Affinity jsou licencované produkty vyžadující nemalou investici peněz. Nabízí sice zlevněné edukační a studentské licence, ale ani tak se nejedná o zrovna levné programy. Škola by musela platit licenci, aby manuál mohl být dále aktualizován. Ačkoliv je nabízený software profesionální, nabízí spoustu featur, které nejsou pro mé potřeby nutné. Zároveň by se kdokoliv, kdo by manuál dále aktualizoval, musel se softwarem seznámit, což je pro mnohé lidi, kteří se v grafice nepohybují, u složitých programů složité. Narozdíl od Adobe a Affinity byl program Scribus využíván studenty pro sazbu školního časopisu Tycho, program je nainstalovaný na školních počítačích a obecně má na škole větší zázemí. Nástroje Scribusu bohatě stačí pro můj projekt a zároveň je zdarma. Rozhodla jsem se tedy do Adobe/Affinity neinvestovat, vzhledem k tomu, že Scribus je dostatečný.
+Jako další možnosti jsem zvažovala použití softwaru od Adobe nebo Affinity. Tento software je používán pro tvorbu grafických manuálů v profesionálním prostředí a určitě by nebyl špatnou volbou co se týče nabízených nástrojů. Rodina Adobe i Affinity navíc nabízí i špičkové programy pro tvorbu vektorové grafiky (více o výběru sw pro tvorbu grafiky v sekci \nameref{sec:grafika}). Bohužel, Adobe i Affinity jsou licencované produkty vyžadující nemalou investici peněz. Nabízí sice zlevněné edukační a studentské licence, ale ani tak se nejedná o zrovna levné programy. Škola by musela platit licenci, aby manuál mohl být dále aktualizován. Ačkoliv je nabízený software profesionální, nabízí spoustu možností, které nejsou pro mé potřeby nutné. Zároveň by se kdokoliv, kdo by manuál dále aktualizoval, musel se softwarem seznámit, což je pro mnohé lidi, kteří se v grafice nepohybují, u složitých programů složité. Narozdíl od Adobe a Affinity byl program Scribus využíván studenty pro sazbu školního časopisu, program je nainstalovaný na školních počítačích a obecně má na škole větší zázemí. Nástroje Scribusu bohatě stačí pro můj projekt a zároveň je zdarma. Vzhledem k tomu, že Scribus dostačuje pro mé potřeby, jsem se rozhodla do Adobe nebo Affinity neinvestovat.
 
 Jako další možnost se jeví použítí LaTeXu. Ten je vhodný ale spíše pro práci s textem, ne s velkým množstvím grafického obsahu, který je nedílnou součástí grafického manuálu. Další nevýhodou by bylo, že budoucí aktualizace manuálu by mohli dělat pouze lidé, kteří latexu rozumí, kterých na škole není příliš velké množství. Se Scribusem sice také většina lidí běžně nepracuje, nicméně je mnohem intuitivnější.
 
-Dále by bylo možné grafický manuál sázet v online nástrojích jako Canva, nebo dokonce i v PowerPointu. Tyto možnosti jsem ale zavhrla vzhledem k jejich omezeným možnostem a také proto, že jejich použití zkrátka vůbec nepůsobí profesionálně - ačkoliv nejsem profesionál, chci, aby výsledek měl alespoň nějakou úroveň. Navíc oba programy jsou určeny primárně pro jiné účely, tedy i proto nenabízejí tak dobré možnosti, jako Scribus, Adobe a Affinity.
+Dále by bylo možné grafický manuál sázet v online nástrojích jako Canva, nebo dokonce i v PowerPointu. Tyto možnosti jsem ale zavhrla vzhledem k jejich omezeným možnostem a také proto, že jejich použití nepůsobí profesionálně - ačkoliv nejsem profesionál, chci, aby výsledek měl alespoň nějakou úroveň. Navíc oba programy jsou určeny pro jiné účely, tedy i proto nenabízejí tak dobré možnosti, jako Scribus, Adobe a Affinity.
 
-MS Publisher - nemám licenci, nemá to takový layout, nepodporuje to svg a musela bych převádět files, ale umí lépe pracovat s barvama, je jen na win. Je jednodušší a víc user-friendly. 
+Další možností je MS Publisher - je sice více uživatelsky přátelský, nemám na něj ale licenci, nenabízí tolik nástrojů, nepodporuje grafiku ve formátu svg a je dostupný pouze pro operační systémy Windows. 
+
+Před samotnou tvorbou finální verze grafického manuálu jsem vytvářela provizorní grafický manuál v Google Sheets, jelikož v průběhu tvorby šablon jsem musela několikrát jednotlivé prvky upravovat a bylo pro mě jednodušší a rychlejší je upravovat v této aplikaci. Manuál jsem nasázela ve Scribusu až tehdy, když jsem měla finální verzi.
+
+\subsection{logo}
+Pro tvorbu loga jsem zvolila program Inkscape. V něm jsem původní logo zvektorizovala. Změnila jsem písmo na font Prompt extrabold nainstalovaný z googlefonts. Tento font má otevřenou licenci OFL, tudíž jej škola může využívat i pro propagační účely.
+Dále jsem vytvořila druhý typ loga, ve kterém je text orientován horizontálně.
+
+Další důležitou součástí tvorby loga je vytvoření ochranné zóny. Vybrala jsem velikost části logotypu a tuto velikost v jejím násobku převedla na kraj v podobě čtverce. Poté jsem změnila velikost stránky na velikost výběru.
+
+\subsection{Barvy}
+Pro práci s barevnou paletou jsem používala online nástroj Paletton\footnote{https://paletton.com/}.
+
+\subsection{Písmo}
+Druh písma Prompt jsem nalezla a nainstalovala z databáze fontů Google Fonts\footnote{https://fonts.google.com/specimen/Prompt}.
 
 \section{Šablony}
+\subsection{dotazník}
+\subsection{vizitky}
+Pro tvorbu šablon vizitek jsem zvolila program Inkscape. Vzhledem k tomu, že jsem v něm vytvářela loga, jsem ho už zvládala na základní úrovni ovládat. Umožňuje přesnou práci a ukládat barvy ve formátu CMYK, který je pro tisk vhodnější než formát RGB. Umožňuje grafiku ukládat v křivkách, což je mnohými tiskárnami vyžadováno.
+
+% ZKŘIVKOVAT PÍSMA, ZKONTROLOVAT DPI
+
+% https://www.verso.cz/Upload/Priprava-dat-pro-vizitky.pdf
 \section{Návhry úprav webových stránek}
 
 
