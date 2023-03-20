@@ -102,6 +102,10 @@ Grafický manuál by měl zabránit nejednotě vizuální komunikace, definovat 
 Kvůli licenci fontu bylo potřebné změnit font textu okolo loga.
 Rozhodla jsem se také navrhnout variantu loga, kdy je logo použito s textem orientovaným horizontálně v bloku vedle portrétu - na webových stránkách je momentálně logo (portrét s textem v kruhu) i s horizontálně orientovaným textem, tudíž se text dvakrát opakuje (viz \nameref{fig:logo_web}). V nově vytvořeném logu s horizontálním textem je také místo nápisu "Gymnasium Jana Keplera" použit nápis "Gymnázium Jana Keplera." Působí to moderněji a přirozeněji.
 
+Vytvořila jsem také obě varianty loga v invertovaných barvách. Tyto varianty však nemají pouze prohozené barvy, invertovaný portrét je tvořen obrysem. Kdyby byly pouze invertované barvy, portrét by "zapadl dovnitř" a z estetického hlediska by nebyl dobrý.
+
+Nezbytnou součástí grafického manuálu jsou také nepovolené varianty loga. Těmi jsou například čistě invertované logo bez použití obrysu nebo logo s dvojím textem okolo portrétu a horizontálně v bloku vedle něj.
+
 \begin{figure}[htbp]
   \includegraphics[width=1\textwidth]{img/gjk_web_hlavicka.png}
   \caption{logo na webu www.gjk.cz}
@@ -131,11 +135,17 @@ Dalším důležitým poznatkem je, že lidé obecně preferují, pokud jsou bar
 
 \subsection{Písmo}
 Jako písmo na logo bylo nutné zvolit font s otevřenou licencí podporující celou českou abecedu. Chtěla jsem, aby působil moderně, snadno se četl, ale zároveň nebyl zcela obyčejný. Pro tyto účely jsem zvolila druh písma \footnote{https://fonts.google.com/specimen/Prompt}. Rozhodla jsem se jej určit i jako primární písmo pro nadpisy.
-Jako písmo pro delší texty (obsah sdělení) jsem se rozhodla na základě konzultace na UMPRUM použít font Arial Regular. Tento font se dobře čte, většina lidí je na něj zvyklá a používá se na webových stránkách školy, tudíž to nebude pro čtenáře taková změna. Vzhledem k tomu, že většina pedagogického sboru pracuje s operačním systémem Windows, je tento font vhodný i proto, že je dostupný na většině počítačů (s operačním systémem Windows) a v nejčastěji používaném softwaru, pro který navrhuji šablony (Google platforma a Microsoft Office). Font sice není v základu poskytován unixovými operačními systémy, nicméně lze doinstalovat a lidé používající tyto operační systémy jsou většinou dostatečně technicky zdatní a dokáží si font opatřit.
+Jako písmo pro delší texty (obsah sdělení) jsem se rozhodla na základě konzultace na UMPRUM použít font Arial Regular. Tento font se dobře čte, většina lidí je na něj zvyklá a používá se na webových stránkách školy, tudíž to nebude pro čtenáře taková změna.
+Pro delší dokumenty (závěrečné práce atp.) jsem zvolila patkové písmo Times New Roman díky jeho dobré čitelnosti.
 
 \section{Šablony}
-\subsection{Zadání závěrečné práce}
+\subsection{Nejčastěji používaný software}
+Vzhledem k tomu, že šablony dělám primárně pro vedení školy a pro studenty, jsem se rozhodla udělat průzkum o nejčastěji používaném softwaru. Na základě konzultace s Mgr. Marcelou Grabmüllerovou jsem zjistila, že veškeré šablony pro vedení školy by měly být, pokud možno, dostupné hlavně pro Google platformu. Nejčastěji používaný software mezi studenty jsem zjišťovala pomocí rozeslaného dotazníku.
+% dotazník je dostupný zde a zde
+% výsledky dotazníku
+Šablony budu tedy tvořit primárně pro Google platformu a Microsoft Office (šablony z Google platformy lze konvertovat přímo pro Microsoft Office), šablony maturitní práce pak také v LaTeXu. Výjimkou jsou šablony vizitek a emailového podpisu, pro které tento software není vhodný.
 \subsection{Závěrečná práce}
+Šablonu závěrečné práce jsem se rozhodla vytvořit na základě požadavků pro maturitní práci z humanitních studií.
 \subsection{Dopisní papír}
 \subsection{Email}
 \subsection{Prezentace}
@@ -197,7 +207,6 @@ Před samotnou tvorbou finální verze grafického manuálu jsem vytvářela pro
 
 \subsection{logo}
 Pro tvorbu loga jsem zvolila program Inkscape. V něm jsem původní logo zvektorizovala. Změnila jsem písmo na font Prompt extrabold nainstalovaný z googlefonts. Tento font má otevřenou licenci OFL, tudíž jej škola může využívat i pro propagační účely.
-Dále jsem vytvořila druhý typ loga, ve kterém je text orientován horizontálně.
 
 Další důležitou součástí tvorby loga je vytvoření ochranné zóny. Vybrala jsem velikost části logotypu a tuto velikost v jejím násobku převedla na kraj v podobě čtverce. Poté jsem změnila velikost stránky na velikost výběru.
 
@@ -206,6 +215,10 @@ Pro práci s barevnou paletou jsem používala online nástroj Paletton\footnote
 
 \subsection{Písmo}
 Druh písma Prompt jsem nalezla a nainstalovala z databáze fontů Google Fonts\footnote{https://fonts.google.com/specimen/Prompt}.
+
+Jako písmo pro delší texty jsem zvolila písmo Arial. Vzhledem k tomu, že většina pedagogického sboru pracuje s operačním systémem Windows, je tento font vhodný i proto, že je dostupný na většině počítačů (s operačním systémem Windows) a v nejčastěji používaném softwaru, pro který navrhuji šablony (Google platforma a Microsoft Office). Font sice není v základu poskytován unixovými operačními systémy, nicméně lze doinstalovat a lidé používající tyto operační systémy jsou většinou dostatečně technicky zdatní a dokáží si font opatřit.
+
+Jako font pro závěrečné práce a jiné delší dokumenty jsem zvolila písmo Times New Roman, protože je, narozdíl od písma Arial, podporované kompilátorem pdfLaTeX a jeho použití by tak mělo být pro uživatele snazší (např. platforma Overleaf\footnote{https://www.overleaf.com/} kompiluje primárně přes pdfLaTeX, uživatel samozřejmě může zvolit jiný kompilátor, ale práce se šablonou by kvůli tomu byla složitější). Tento font je zároveň v základu dostupný na Google platformě i v Microsoft Office. Díky tomu uživatel nemusí doinstalovávat font na žádné z platforem, pro které jsou šablony dostupné.
 
 \section{Šablony}
 \subsection{dotazník}
@@ -221,6 +234,9 @@ Pro tvorbu šablon vizitek jsem zvolila program Inkscape. Vzhledem k tomu, že j
 \chapter{Technická dokumentace}
 
 Poslední kapitola obsahuje informace o tom, jak projekt, který v rámci maturitní práce vznikl, nainstalovat, spustit a používat.
+
+% PÍSMO - POZOR NA LICENCOVÁNÍ ARIAL - POUZE KDYŽ JE ZAKOUPENO (WINDOWS)
+% návod jak stáhnout písmo
 
 \section{Ukázka sekce}
 
