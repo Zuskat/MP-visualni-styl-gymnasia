@@ -1,0 +1,43 @@
+\usepackage[a-2u]{pdfx}
+
+%% Přepneme na českou sazbu, fonty Times New Roman a kódování češtiny
+\usepackage[czech]{babel}
+\usepackage{times}
+\usepackage[T1]{fontenc}
+\usepackage{textcomp}
+\usepackage[utf8]{inputenc}
+
+%%% Další užitečné balíčky (jsou součástí běžných distribucí LaTeXu)
+\usepackage{graphicx}       % vkládání obrázků
+\usepackage{dcolumn}        % lepší zarovnání sloupců v tabulkách
+\usepackage{booktabs}       % lepší vodorovné linky v tabulkách
+\makeatletter
+\@ifpackageloaded{xcolor}{
+   \@ifpackagewith{xcolor}{usenames}{}{\PassOptionsToPackage{usenames}{xcolor}}
+  }{\usepackage[usenames]{xcolor}} % barevná sazba
+\makeatother
+\usepackage{multicol}       % práce s více sloupci na stránce
+\usepackage{caption}
+\usepackage{enumitem}
+\usepackage{lipsum}
+\setlist[itemize]{noitemsep, topsep=0pt, partopsep=0pt}
+\setlist[enumerate]{noitemsep, topsep=0pt, partopsep=0pt}
+\setlist[description]{noitemsep, topsep=0pt, partopsep=0pt}
+\usepackage{pdfpages}
+
+% vyznaceni odstavcu
+\parindent=0pt
+\parskip=11pt
+
+% zakaz vdov a sirotku - jednoradkovych pocatku ci koncu odstavcu na prechodu mezi strankami
+\clubpenalty=1000
+\widowpenalty=1000
+\displaywidowpenalty=1000
+
+% nastaveni radkovani
+\renewcommand{\baselinestretch}{1.2}
+
+% Zapne černé "slimáky" na koncích řádků, které přetekly, abychom si
+% jich lépe všimli.
+\overfullrule=1mm
+

@@ -1,0 +1,29 @@
+\documentclass[12pt,a4paper,twoside,openright]{report}
+
+\usepackage[top=25mm,bottom=25mm,right=25mm,left=25mm,head=12.5mm,foot=12.5mm]{geometry}
+\let\openright=\cleardoublepage
+
+\input{macros}
+
+\def\NazevPrace{Název maturitní práce}
+\def\Trida{4.Z}
+\def\AutorPrace{Jméno Příjmení}
+\def\DatumOdevzdani{20XX}
+\def\SkolniRok{20XX/20YY}
+\def\Predmet{Předmět}
+
+% Vedoucí práce: Jméno a příjmení s~tituly
+\def\Vedouci{Titul. Jméno Příjmení, Titul}
+
+% zadání
+\def\Platnost{xx. y. zzzz}
+\def\Pokyny{Zde popište, čeho se chystáte v práci dosáhnout.}
+\def\Literatura{Zde bude vedoucím práce doplněna doporučená literatura.}
+\def\Url{https://gitlab.com/gjk/maturitni-projekt}
+\def\Podpis{aa. b. cccc}
+
+\begin{document}
+
+\include{zadani}
+
+\end{document}
