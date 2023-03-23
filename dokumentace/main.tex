@@ -4,7 +4,6 @@
 \let\openright=\cleardoublepage
 
 \input{macros.tex}
-\addbibresource{references.bib}
 
 \def\NazevPrace{Grafický visuální styl gymnasia}
 \def\Trida{4.B}
@@ -134,18 +133,27 @@ Dalším důležitým poznatkem je, že lidé obecně preferují, pokud jsou bar
 % https://www.youtube.com/watch?v=XNkV6m4fosw
 
 \subsection{Písmo}
+\label{sec:písmo}
 Jako písmo na logo bylo nutné zvolit font s otevřenou licencí podporující celou českou abecedu. Chtěla jsem, aby působil moderně, snadno se četl, ale zároveň nebyl zcela obyčejný. Pro tyto účely jsem zvolila druh písma \footnote{https://fonts.google.com/specimen/Prompt}. Rozhodla jsem se jej určit i jako primární písmo pro nadpisy.
 Jako písmo pro delší texty (obsah sdělení) jsem se rozhodla na základě konzultace na UMPRUM použít font Arial Regular. Tento font se dobře čte, většina lidí je na něj zvyklá a používá se na webových stránkách školy, tudíž to nebude pro čtenáře taková změna.
-Pro delší dokumenty (závěrečné práce atp.) jsem zvolila patkové písmo Times New Roman díky jeho dobré čitelnosti.
+Pro delší dokumenty (závěrečné práce atp.) jsem zvolila patkové písmo Times New Roman pro jeho dobrou čitelnost - patkové písmo se hodí pro rozsáhlé texty\cite{grafika} a právě písmo Times New Roman je i podle studií považováno za jedno z nejlépe čitelných.\cite{times} Kompilátor pdfLaTeX navíc umí pracovat pouze s Times New Roman.
 
 \section{Šablony}
 \subsection{Nejčastěji používaný software}
-Vzhledem k tomu, že šablony dělám primárně pro vedení školy a pro studenty, jsem se rozhodla udělat průzkum o nejčastěji používaném softwaru. Na základě konzultace s Mgr. Marcelou Grabmüllerovou jsem zjistila, že veškeré šablony pro vedení školy by měly být, pokud možno, dostupné hlavně pro Google platformu. Nejčastěji používaný software mezi studenty jsem zjišťovala pomocí rozeslaného dotazníku.
+Vzhledem k tomu, že šablony dělám primárně pro vedení školy a pro studenty, jsem se rozhodla udělat průzkum o nejčastěji používaném softwaru (viz \nameref{part:prilohy} - příloha 1). Na základě konzultace s Mgr. Marcelou Grabmüllerovou jsem zjistila, že veškeré šablony pro vedení školy by měly být, pokud možno, dostupné hlavně pro Google platformu. Nejčastěji používaný software mezi studenty jsem zjišťovala pomocí rozeslaného dotazníku.
 % dotazník je dostupný zde a zde
 % výsledky dotazníku
+
 Šablony budu tedy tvořit primárně pro Google platformu a Microsoft Office (šablony z Google platformy lze konvertovat přímo pro Microsoft Office), šablony maturitní práce pak také v LaTeXu. Výjimkou jsou šablony vizitek a emailového podpisu, pro které tento software není vhodný.
-\subsection{Závěrečná práce}
-Šablonu závěrečné práce jsem se rozhodla vytvořit na základě požadavků pro maturitní práci z humanitních studií.
+
+\subsection{Závěrečná práce a zadání závěrečné práce}
+Funkcí šablony je sjednotit styl závěrečných prací. Vzhledem k rozmanitosti předmětů, v rámci kterých závěrečné práce vznikají, nemohou mít všechny závěrečné práce stejnou strukturu a totožný vzhled. Účelem je tedy sjednotit základní prvky jako font, velikost písma, pořadí některých prvků (poděkování, abstrakt, prohlášení..) a podobně. Součástí šablony závěrečné práce je titulní strana, která by, podobně jako šablona zadání, měla být pro všechny předměty totožná.
+Na šabloně zadání závěrečné práce bude pravděpodobně pracovat jak student, tak vedoucí práce, v některých případech pouze vedoucí práce.
+
+Podoba závěrečné práce je inspirována původní šablonou, jelikož nevidím důvod výrazně měnit vzhled maturitních prací. Inspirovala jsem se také vzhledem bakalářských prací FIT ČVUT. \footnote{https://dspace.cvut.cz/handle/10467/3577} Rozhodla jsem se však pro černobílé provedení, jelikož většina studentů své práce tiskne na vlastní náklady a černobílý tisk je ve většině případů levnější než tisk barevný.
+
+Šablonu závěrečné práce jsem se rozhodla vytvořit na základě požadavků pro maturitní práci z humanitních studií. Podmínky povolují fonty Arial, Georgia a Times New Roman (více o důvodech zvolení písma Times New Roman viz \nameref{sec:písmo}).
+
 \subsection{Dopisní papír}
 \subsection{Email}
 \subsection{Prezentace}
@@ -221,13 +229,20 @@ Jako písmo pro delší texty jsem zvolila písmo Arial. Vzhledem k tomu, že v�
 Jako font pro závěrečné práce a jiné delší dokumenty jsem zvolila písmo Times New Roman, protože je, narozdíl od písma Arial, podporované kompilátorem pdfLaTeX a jeho použití by tak mělo být pro uživatele snazší (např. platforma Overleaf\footnote{https://www.overleaf.com/} kompiluje primárně přes pdfLaTeX, uživatel samozřejmě může zvolit jiný kompilátor, ale práce se šablonou by kvůli tomu byla složitější). Tento font je zároveň v základu dostupný na Google platformě i v Microsoft Office. Díky tomu uživatel nemusí doinstalovávat font na žádné z platforem, pro které jsou šablony dostupné.
 
 \section{Šablony}
-\subsection{dotazník}
 \subsection{vizitky}
 Pro tvorbu šablon vizitek jsem zvolila program Inkscape. Vzhledem k tomu, že jsem v něm vytvářela loga, jsem ho už zvládala na základní úrovni ovládat. Umožňuje přesnou práci a ukládat barvy ve formátu CMYK, který je pro tisk vhodnější než formát RGB. Umožňuje grafiku ukládat v křivkách, což je mnohými tiskárnami vyžadováno.
 
 % ZKŘIVKOVAT PÍSMA, ZKONTROLOVAT DPI
 
 % https://www.verso.cz/Upload/Priprava-dat-pro-vizitky.pdf
+\subsection{Dopisní papír}
+problém s bezokrajovým tiskem a doporučení na případné použití původních návrhů v případě pořízení bezokrajové tiskárny
+
+\subsection{Maturitní práce a zadání maturitní práce}
+Šablony jsem se rozhodla vytvořit úpravou již existujících LaTeXových šablon na maturitní práci z informatiky. Upravila jsem její vzhled (titulní stranu, font atd.), bibliografii, strukturu a některá makra. Tento postup jsem zvolila proto, abych nezapomněla do šablony zakomponovat důležitá makra (např. matematické balíčky, se kterými nemám zkušenosti). Zvolený postup také značně urychlil moji práci. Šablony nejsou totožné, vyskytují se v nich však podobnosti právě z tohoto důvodu.
+
+Na šabloně zadání závěrečné práce bude pravděpodobně pracovat jak student, tak vedoucí práce, v některých případech pouze vedoucí práce. Z tohoto důvodu jsem se rozhodla šablonu zadání vytvořit jako samostatnou šablonu. Šablona zadání není součástí šablony maturitní práce pro případ, že se vedoucí prací rozhodne neposkytnout studentům přístup k šablonám, aby je nemohli upravovat a zadání zůstalo neměnné.
+
 \section{Návhry úprav webových stránek}
 
 
@@ -237,6 +252,10 @@ Poslední kapitola obsahuje informace o tom, jak projekt, který v rámci maturi
 
 % PÍSMO - POZOR NA LICENCOVÁNÍ ARIAL - POUZE KDYŽ JE ZAKOUPENO (WINDOWS)
 % návod jak stáhnout písmo
+
+\section{Šablony}
+\subsection{Závěrečná práce}
+Šablona maturitní práce je pouze pomůckou, která má pomoci udržet podobný vizuální styl závěrečných prací a navést je k určité struktuře. Každý student by si měl ověřit, zda jeho závěrečná práce splňuje všechny podmínky (každý předmět může mít podmínky nastavené jinak). Také by měl zkontrolovat, že všechny jeho citace jsou v požadované normě. V případě LaTeXové šablony je nastavená norma ISO 160, i tak ale doporučuji překontrolování všech citací. V případě google dokumentů student musí citace generovat sám.
 
 \section{Ukázka sekce}
 
@@ -273,7 +292,9 @@ Závěr obsahuje shrnutí práce a vyjadřuje se k míře splnění jejího zad�
 %%% Přílohy k práci, existují-li. Každá příloha musí být alespoň jednou
 %%% odkazována z vlastního textu práce. Přílohy se číslují.
 
-%\part*{Přílohy}
-%\appendix
+\part*{Přílohy}\label{part:prilohy}
+\Large\textbf{příloha 1}
+\includepdf[]{dotaznik.pdf}
+% \appendix
 
 \end{document}
