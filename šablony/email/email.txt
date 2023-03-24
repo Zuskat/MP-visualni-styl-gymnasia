@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+
+<style>
+body {
+  background-image: url(https://ak.picdn.net/shutterstock/videos/23008450/thumb/12.jpg?ip=x480);
+  text-align: center;
+  color: yellow;
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+
+</head>
+<body>
+<div>
+<h1>Star Wars: Epizoda VI - Návrat Jediho</h1>
+
+<p> Sci-Fi / Dobrodružný / Fantasy / Akční <br>
+USA, 1983, 131 min (SE: 134 min)</p>
+
+<p class='solid'> <b>Režie: </b>Richard Marquand <br>
+<b>Scénář: </b>Lawrence Kasdan, George Lucas <br>
+<b>Kamera: </b>Alan Hume, Alec Mills <br>
+<b>Hudba: </b>John Williams <br>
+<b>Hrají:</b> Mark Hamill, Harrison Ford, Carrie Fisher, Billy Dee Williams, Anthony Daniels, Peter Mayhew, Ian McDiarmid, Frank Oz, James Earl Jones, David Prowse, Alec Guinness, Kenneth Colley, Warwick Davis, Richard Marquand, Debbie Lee Carrington, John Altman, Paul Brooke, Tony Cox, Richard Jones, Deep Roy, Luis De Jesus, Felix Silla, Richard Driscoll, Phil Fondacaro, Kiran Shah, Michael Gilden, Denis Lawson, Dermot Crowley, Jeremy Bulloch, Hilton McRae, Kenny Baker, Caroline Blakiston, Sebastian Shaw, Michael Carter, Ernie Fosselius, Robert Watts, Mike Edmonds, Tom Mannion, Claire Davenport, Peter Diamond, Peter Roy, Anthony Lang, Anthony Smee, Daniel Frishman, Kevin Thompson, Peter Allen, Vivienne Chandler, Ronny Cush </p>
+
+<p>Luke Skywalker se vrátil na svou rodnou planetu Tatooine ve snaze zachránit svého přítele Hana Sola z pazourů zlého gangstera Jabba Hutta. Málo však Luke ví o tom, že GALAKTICKÉ IMPÉRIUM začalo tajně stavět novou obrněnou bojovou vesmírnou stanici, která je ještě silnější než ta první - obávaná Hvězda Smrti. Po dokončení by tato zbraň přinesla jistou zkázu malé skupině rebelů, bojujících za znovuobnovení svobody v Galaxii...(oficiální text distributora)</p>
+
+<img src="https://vignette.wikia.nocookie.net/starwars/images/b/b2/ReturnOfTheJediPoster1983.jpg/revision/latest?cb=20120120223421&path-prefix=cs" alt="SW6" style="width:300px">
+<br>
+<a href='https://www.csfd.cz/film/6474-star-wars-epizoda-vi-navrat-jediho/prehled/'>Star Wars na ČSFD<a/>
+</div>
+</body>
+</html>
